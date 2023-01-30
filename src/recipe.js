@@ -1,5 +1,3 @@
-import image_1 from "./img/chitrashi.jpg";
-import image_2 from "./img/cabbage.webp";
 
 export const my_recipe = {
   recipe_1: {
@@ -17,7 +15,7 @@ export const my_recipe = {
       "Fry eggs in a pan",
       "Serve rice, eggs and fish on a plate",
     ],
-    image: image_1,
+    image: "/img/chitrashi.jpg",
   },
 
   recipe_2: {
@@ -44,6 +42,6 @@ export const my_recipe = {
       "Reduce the heat and cook the recipe for 7 minutes until the onions are soft.",
       "Now stir garam masala and lemon juice. Enjoy it!",
     ],
-    image: image_2,
+    image: "/img/cabbage.webp",
   },
 };

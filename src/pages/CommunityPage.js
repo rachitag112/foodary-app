@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import image from "../img/community.jpg";
 
 const CommunityPage = () => {
   return (
@@ -9,7 +8,7 @@ const CommunityPage = () => {
       <div className="container">
         <div style={{ marginTop: "100px" }} className="inner-container">
           <div className="comunity-header">
-            <img src={image} className="community-image" alt="" />
+            <img src={"/img/community.jpg"} className="community-image" alt="" />
             <div className="community-header-right">
               <h3 className="community-header-title">Join the Community</h3>
               <div className="form">
